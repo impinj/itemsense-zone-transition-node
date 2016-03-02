@@ -1,0 +1,17 @@
+{
+  "name": "itemsense-zone-transition",
+  "version": "1.0.0",
+  "description": "An example of how to utilize ItemSense's functionality for tracking tag movement through zones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Combopiano",
+  "license": "MIT",
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "itemsense-node": "^1.0.5",
+    "lodash": "^4.5.1",
+    "q": "^1.4.1"
+  }
+}
