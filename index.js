@@ -8,12 +8,13 @@ const ELAPSED_QUERY_TIME_IN_SECONDS =10;
 
 
 var handleMessage = function (message) {
+  //do work to handle pushed meessages
   console.log(JSON.stringify(message));
 };
 
 
 //Push samples via message queues
- /*
+
  configureQueue('south', 'north', handleMessage);
  configureQueue('north', 'south', handleMessage);
  configureQueue('ABSENT', 'FACILITY',handleMessage);
@@ -21,7 +22,7 @@ var handleMessage = function (message) {
  configureQueue('north', 'ABSENT', handleMessage);
  configureQueue('south', 'FACILITY', handleMessage);
  configureQueue('north', 'FACILITY', handleMessage);
-*/
+
 
 //Pulling Data Examples
 var getMostRecentZoneTransitions = function(){

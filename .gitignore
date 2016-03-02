@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 reated by https://www.gitignore.io/api/osx,webstorm,node
 
 ### OSX ###
@@ -75,6 +76,8 @@ fabric.properties
 
 
 ### Node ###
+=======
+>>>>>>> e4fc90b2ae36c222357fcaac68cceb7aab12ee90
 # Logs
 logs
 *.log
@@ -100,13 +103,21 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
+<<<<<<< HEAD
 # Dependency directories
 node_modules
 jspm_packages
+=======
+# Dependency directory
+node_modules
+>>>>>>> e4fc90b2ae36c222357fcaac68cceb7aab12ee90
 
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+<<<<<<< HEAD
 
+=======
+>>>>>>> e4fc90b2ae36c222357fcaac68cceb7aab12ee90
