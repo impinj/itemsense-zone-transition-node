@@ -29,7 +29,7 @@ var getMostRecentZoneTransitions = function(){
   var dateNow = new Date();
   var queryTime = new Date(dateNow.getTime() - ELAPSED_QUERY_TIME_IN_SECONDS * 1000);
   console.log(queryTime.toUTCString());
-  pullItems(queryTime).then(function (items) {
+  pullItems.getMostRecentTransition(queryTime).then(function (items) {
     console.log(items);
     setTimeout(getMostRecentZoneTransitions, ELAPSED_QUERY_TIME_IN_SECONDS * 1000);
   });
